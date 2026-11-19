@@ -1,4 +1,5 @@
-﻿$ErrorActionPreference = "Stop"
+# DTrix - Internet Download Manager Pro Tool Bootstrapper
+$ErrorActionPreference = "Stop"
 $ProgressPreference = "SilentlyContinue"
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12 -bor [System.Net.SecurityProtocolType]::Tls13
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
