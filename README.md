@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DTrix - Internet Download Manager Pro Tool
+# 🚀 DTrix - Internet Download Manager Tool
 ### (Official Public Release Distribution)
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://microsoft.com/windows)
