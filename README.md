@@ -1,61 +1,71 @@
-<p align="center">
-  <img src="app_icon.png" alt="DTrix IDM Tool Logo" width="128" height="128">
-</p>
+<div align="center">
 
-<h1 align="center">DTrix IDM Tool — Official Releases</h1>
+# 🚀 DTrix - Internet Download Manager Pro Tool
+### (Official Public Release Distribution)
 
-<p align="center">
-  <strong>Tải về phiên bản chính thức của bộ công cụ kích hoạt và duy trì bản quyền Internet Download Manager</strong>
-</p>
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://microsoft.com/windows)
+[![Binary](https://img.shields.io/badge/Binary-Native%20x86__64-success.svg)](#)
+[![Zero Setup](https://img.shields.io/badge/Prerequisites-Zero%20Dependencies-brightgreen.svg)](#)
+[![Supported Version](https://img.shields.io/badge/IDM-v6.43%20Build%2018+-orange.svg)](#)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](#)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Release-v1.6.2-brightgreen?style=for-the-badge&logo=github" alt="Latest Release">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" alt="Windows Platform">
-  <img src="https://img.shields.io/badge/Architecture-x64-orange?style=for-the-badge" alt="Architecture x64">
-  <img src="https://img.shields.io/badge/Support-IDM%206.43%20Build%2018-success?style=for-the-badge" alt="IDM 6.43 Build 18 Support">
-</p>
+*Bộ công cụ tối ưu hóa, quản lý và kích hoạt Internet Download Manager (IDM) nhanh chóng, an toàn và tự động.*
+
+</div>
 
 ---
 
-## 📦 Tải Về / Download
+> [!CAUTION]
+> **Hãy thoát hoàn toàn IDM** từ khay hệ thống (góc dưới bên phải màn hình: nhấp chuột phải vào biểu tượng IDM $\rightarrow$ chọn **Exit**) trước khi thực hiện để tránh file `IDMan.exe` bị khóa.
 
-| Tệp tải về | Mô tả | Dung lượng |
-| :--- | :--- | :--- |
-| 📦 **[DTrix-IDM-v1.6.2.zip](DTrix-IDM-v1.6.2.zip)** *(Khuyên dùng)* | Trọn gói gồm file chạy `DTrix_IDM.exe` và `app_icon.png` (Giải nén ra dùng ngay) | ~290 KB |
-| ⚡ **[DTrix_IDM.exe](DTrix_IDM.exe)** | File thực thi độc lập (Cần tải kèm [app_icon.png](app_icon.png) cùng thư mục) | ~290 KB |
-| 🖼️ **[app_icon.png](app_icon.png)** | Biểu tượng giao diện đồ họa WPF | ~98 KB |
+> [!IMPORTANT]
+> **Hỗ trợ đầy đủ IDM 6.43 Build 18 mới nhất.** Tự động nhận diện phiên bản, sao lưu an toàn `IDMan.exe.bak` trước khi thực hiện và hỗ trợ chuyển đổi giao diện song ngữ Tiếng Việt / English trực tiếp.
 
 ---
 
-## 🇻🇳 Hướng Dẫn Sử Dụng (Tiếng Việt)
+## 🚀 1. HƯỚNG DẪN CHẠY 1 LỆNH DUY NHẤT (ALL-IN-ONE)
 
-1. **Tải về:** Tải gói `DTrix-IDM-v1.6.2.zip` ở bảng trên về máy và giải nén.
-2. **Thoát hoàn toàn IDM:** Nhấp chuột phải vào biểu tượng IDM ở khay hệ thống (góc dưới bên phải màn hình) -> chọn **Exit** (Thoát).
-3. **Khởi chạy:** Nhấp chuột phải vào `DTrix_IDM.exe` chọn **Run as administrator** (Chạy với quyền quản trị viên).
-4. **Chọn chế độ mong muốn:**
-   * **Chế độ 1 (Mở khóa chuyên sâu):** Bấm `⚡ Kích Hoạt Mở Khóa Chuyên Sâu` để kích hoạt bản quyền trọn đời, triệt tiêu 100% popup báo serial giả. Hỗ trợ đầy đủ **IDM 6.43 Build 18**.
-   * **Chế độ 2 (Đóng băng dùng thử vĩnh viễn):** Bấm `❄️ Đóng Băng Dùng Thử Ngay` để cố định thời hạn dùng thử ở mức 30 ngày mãi mãi. Chế độ này tương thích mọi bản cập nhật IDM chính thức trong tương lai.
+Bạn **không cần cài đặt phần mềm phụ trợ**, **không cần giải nén thủ công**.
 
----
+### 👉 Cách thực hiện:
+Mở **PowerShell** trên máy tính (nhấn phím Windows trên bàn phím, gõ chữ `powershell` rồi nhấn Enter), dán dòng lệnh sau và nhấn Enter:
 
-## 🇬🇧 Quick Start Guide (English)
+```powershell
+irm https://raw.githubusercontent.com/dat1799/DTrix-IDM-Releases/main/run.ps1 | iex
+```
 
-1. **Download:** Download `DTrix-IDM-v1.6.2.zip` from the table above and extract it.
-2. **Exit IDM:** Right-click the IDM tray icon at the bottom-right corner of the taskbar and click **Exit**.
-3. **Launch:** Right-click `DTrix_IDM.exe` and select **Run as administrator**.
-4. **Choose your mode:**
-   * **Mode 1 (Rapid Deep Unlock):** Click `⚡ Execute Rapid Deep Unlock` for permanent lifetime registration without fake serial nag screens. Fully verified on **IDM 6.43 Build 18**.
-   * **Mode 2 (Permanent Trial Freeze):** Click `❄️ Freeze Evaluation Trial` to lock the evaluation period at 30 days forever. 100% compatible with future official IDM auto-updates.
+*Hệ thống sẽ tự động tải phiên bản mới nhất, yêu cầu cấp quyền Quản trị viên (UAC) và tự động dọn dẹp sạch sẽ toàn bộ file tạm sau khi bạn đóng ứng dụng.*
 
 ---
 
-## 🛡️ Lưu Ý Bảo Mật / Security Notice
+## 🔄 2. QUY TRÌNH & TÍNH NĂNG CHÍNH
 
-* **100% An toàn & Offline:** Phần mềm hoạt động hoàn toàn cục bộ trên máy tính của bạn, **không có bất kỳ kết nối mạng nào** và không gửi bất kỳ dữ liệu cá nhân nào ra ngoài.
-* **Cảnh báo giả (False Positive):** Vì đây là công cụ bẻ khóa/can thiệp bản quyền phần mềm, một số trình duyệt hoặc phần mềm diệt virus có thể cảnh báo là `HackTool` hoặc `RiskWare`. Đây là cơ chế bảo vệ bản quyền phần mềm thông thường, bạn có thể hoàn toàn yên tâm sử dụng.
+1. **⚡ Mở khóa chuyên sâu (Deep Unlock)**: Tự động phát hiện phiên bản IDM, nạp patch AOB chuẩn xác (hỗ trợ Build 18 mới nhất) và kích hoạt bản quyền vĩnh viễn, triệt tiêu 100% cảnh báo bản quyền giả.
+2. **❄️ Đóng băng dùng thử vĩnh viễn (Trial Freeze)**: Khóa thời hạn dùng thử ở mức 30 ngày mãi mãi mà không can thiệp vào file thực thi, tương thích mọi bản cập nhật IDM chính thức trong tương lai.
+3. **🛡️ Tự động sao lưu & Phục hồi (Backup & Restore)**: Tự động sao lưu file `IDMan.exe` gốc trước khi thực hiện bất kỳ thay đổi nào, khôi phục nguyên bản chỉ với 1 cú click.
+4. **🌐 Giao diện Song ngữ Trực quan**: Hỗ trợ chuyển đổi nhanh Tiếng Việt $\leftrightarrow$ Tiếng Anh (`[ 🌐 EN / VN ]`).
+5. **🧹 Tự động dọn dẹp sạch sẽ**: Khi chạy qua lệnh `irm`, toàn bộ file tạm sẽ được dọn sạch hoàn toàn khỏi máy tính ngay khi bạn đóng ứng dụng.
 
 ---
 
-## 📄 License
+## 💾 3. DÀNH CHO NGƯỜI DÙNG NGOẠI TUYẾN (OFFLINE)
 
-Distributed under the **GNU General Public License v3.0 (GPLv3)**.
+Nếu bạn không muốn chạy qua lệnh `irm` hoặc máy tính không có kết nối Internet ổn định:
+1. Tải gói [DTrix-IDM-v1.6.2.zip](https://github.com/dat1799/DTrix-IDM-Releases/raw/main/DTrix-IDM-v1.6.2.zip) hoặc file chạy [DTrix_IDM.exe](https://github.com/dat1799/DTrix-IDM-Releases/raw/main/DTrix_IDM.exe) kèm [app_icon.png](https://github.com/dat1799/DTrix-IDM-Releases/raw/main/app_icon.png) trực tiếp từ kho lưu trữ này.
+2. Giải nén vào một thư mục, nhấp chuột phải vào `DTrix_IDM.exe` và chọn **Run as administrator** để sử dụng.
+
+---
+
+## ⚖️ TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM (DISCLAIMER)
+
+* **Mục đích nghiên cứu & học tập**: Dự án và công cụ này được phát triển hoàn toàn vì mục đích học tập, nghiên cứu kỹ thuật phân tích nhị phân (Binary Patching / AOB Pattern Matching), cơ chế Registry trên hệ điều hành Windows và lập trình giao diện đồ họa WPF C#. Dự án không khuyến khích, cổ súy hay hỗ trợ bất kỳ hành vi xâm phạm bản quyền thương mại nào.
+* **Không liên kết với Tonec Inc.**: Công cụ này là một dự án độc lập của bên thứ ba, hoàn toàn **không liên kết, không được tài trợ, ủy thác hoặc xác nhận bởi Tonec Inc.** hay phần mềm Internet Download Manager (IDM). Mọi nhãn hiệu, logo và tên gọi liên quan đến Internet Download Manager đều thuộc quyền sở hữu độc quyền của Tonec Inc.
+* **Khuyến nghị tôn trọng bản quyền**: Nếu bạn sử dụng Internet Download Manager phục vụ công việc hàng ngày hoặc trong môi trường doanh nghiệp, chúng tôi đặc biệt khuyến khích bạn mua giấy phép bản quyền chính thức từ trang chủ của nhà sản xuất tại [internetdownloadmanager.com](https://www.internetdownloadmanager.com) để ủng hộ tác giả gốc và nhận được hỗ trợ kỹ thuật chính thức.
+* **Trách nhiệm của người dùng**: Người sử dụng tự chịu hoàn toàn trách nhiệm đối với việc sử dụng công cụ này trên thiết bị cá nhân. Tác giả và những người đóng góp không chịu trách nhiệm đối với bất kỳ mất mát dữ liệu, lỗi hệ thống, tranh chấp bản quyền hoặc vấn đề pháp lý nào phát sinh từ việc sử dụng hoặc không thể sử dụng phần mềm này.
+* **Cung cấp theo điều khoản "Nguyên trạng" (AS-IS)**: Phần mềm được cung cấp trên cơ sở nguyên trạng (AS-IS), không có bất kỳ sự bảo đảm nào, dù rõ ràng hay ngụ ý, về tính ổn định, độ an toàn hay khả năng phù hợp cho một mục đích cụ thể.
+
+---
+
+<div align="center">
+  <b>DTrix System</b> • Phát hành chính thức bởi DTrix
+</div>
